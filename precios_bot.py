@@ -51,9 +51,19 @@ def limpiar_precio(texto: str) -> float:
         return None
 
 def extraer_codigo_de_url(url: str) -> str:
-    match = re.search(r'(NAT[A-Z]+-\d+)', url, re.IGNORECASE)
+    # El código real siempre está al final de la URL, después del último /
+    # Ejemplo: /p/nombre-producto-nature-250-ml/NATARG-102396?position=...
+    # Primero limpiar query params
+    url_limpia = url.split("?")[0]
+    # Tomar el último segmento de la URL
+    ultimo_segmento = url_limpia.rstrip("/").split("/")[-1]
+    match = re.search(r'(NATARG-\d+)', ultimo_segmento, re.IGNORECASE)
     if match:
         return match.group(1).upper()
+    # Fallback: buscar NATARG-XXXXX en toda la URL pero tomando el ÚLTIMO match
+    matches = re.findall(r'(NATARG-\d+)', url, re.IGNORECASE)
+    if matches:
+        return matches[-1].upper()
     return None
 
 def escanear_productos(driver) -> list:
