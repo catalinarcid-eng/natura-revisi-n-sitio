@@ -66,6 +66,10 @@ def extraer_codigo_de_url(url: str) -> str:
         return matches[-1].upper()
     return None
 
+def contar_productos_en_pagina(driver) -> int:
+    """Cuenta cuántos productos hay actualmente visibles en la página."""
+    return len(driver.find_elements(By.CSS_SELECTOR, 'a[href*="/p/"]'))
+
 def escanear_productos(driver) -> list:
     """
     Carga todos los productos de la categoría y extrae:
@@ -73,20 +77,65 @@ def escanear_productos(driver) -> list:
     """
     print(f"Cargando {URL_ARGENTINA} ...")
     driver.get(URL_ARGENTINA)
-    time.sleep(8)
+    time.sleep(10)
+
+    productos_antes = contar_productos_en_pagina(driver)
+    print(f"  Productos iniciales: {productos_antes}")
 
     clics = 0
-    while clics < 100:
+    intentos_sin_nuevos = 0
+
+    while clics < 200:
         try:
-            boton = driver.find_element(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
+            # Scroll al fondo de la página primero
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)
+
+            # Buscar el botón
+            botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
+            if not botones:
+                # No hay botón visible, intentar scroll extra por si no cargó
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(3)
+                botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
+                if not botones:
+                    print(f"  Botón no encontrado. Fin de productos.")
+                    break
+
+            boton = botones[0]
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", boton)
+            time.sleep(1)
             driver.execute_script("arguments[0].click();", boton)
             clics += 1
-            print(f"  Clic {clics} en 'explorar más resultados'...")
-            time.sleep(3)
-        except:
+            time.sleep(4)
+
+            # Verificar si se cargaron productos nuevos
+            productos_ahora = contar_productos_en_pagina(driver)
+            nuevos = productos_ahora - productos_antes
+
+            if nuevos > 0:
+                print(f"  Clic {clics}: +{nuevos} productos (total: {productos_ahora})")
+                productos_antes = productos_ahora
+                intentos_sin_nuevos = 0
+            else:
+                intentos_sin_nuevos += 1
+                print(f"  Clic {clics}: sin productos nuevos (intento {intentos_sin_nuevos}/3)")
+                # Esperar más y reintentar
+                time.sleep(3)
+                if intentos_sin_nuevos >= 3:
+                    print(f"  3 intentos sin productos nuevos. Fin de carga.")
+                    break
+
+        except Exception as e:
+            print(f"  Error en clic: {e}")
             break
 
-    print(f"Todos los productos cargados ({clics} clics).")
+    # Scroll final al fondo para asegurar que todo cargó
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    total_final = contar_productos_en_pagina(driver)
+    print(f"Carga completa: {clics} clics, {total_final} productos en pagina.")
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
     productos = []
