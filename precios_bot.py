@@ -85,7 +85,7 @@ def escanear_productos(driver) -> list:
     clics = 0
     intentos_sin_nuevos = 0
 
-    while clics < 200:
+    while clics < 600:
         try:
             # Scroll al fondo de la página primero
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -180,6 +180,10 @@ def escanear_productos(driver) -> list:
             if precio_lista is not None and precio_promo is not None:
                 break
             card = card.parent
+
+# Si no hay precio tachado (sin descuento), lista = promo
+        if precio_lista is None and precio_promo is not None:
+            precio_lista = precio_promo
 
         productos.append({
             "codigo": codigo,
