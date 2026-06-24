@@ -75,13 +75,13 @@ def cargar_skus_archivo() -> list:
 def escanear_productos(driver) -> list:
     print(f"Cargando {URL_ARGENTINA} ...")
     driver.get(URL_ARGENTINA)
-    time.sleep(6)
+    time.sleep(8)
 
     productos_antes = contar_productos_en_pagina(driver)
     print(f"  Productos iniciales: {productos_antes}")
 
     clics = 0
-    while clics < 600:
+    while clics < 200:
         try:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(1)
@@ -97,7 +97,7 @@ def escanear_productos(driver) -> list:
             boton = botones[0]
             driver.execute_script("arguments[0].click();", boton)
             clics += 1
-            time.sleep(2)
+            time.sleep(3)
 
             if clics % 10 == 0:
                 productos_ahora = contar_productos_en_pagina(driver)
