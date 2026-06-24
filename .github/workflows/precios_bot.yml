@@ -1,6 +1,8 @@
 name: Natura Precios Bot
 
 on:
+  schedule:
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -9,7 +11,7 @@ permissions:
 jobs:
   check-prices:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout código
