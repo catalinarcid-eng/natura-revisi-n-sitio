@@ -75,7 +75,7 @@ def cargar_skus_archivo() -> list:
 def escanear_productos(driver) -> list:
     print(f"Cargando {URL_ARGENTINA} ...")
     driver.get(URL_ARGENTINA)
-    time.sleep(8)
+    time.sleep(10)
 
     productos_antes = contar_productos_en_pagina(driver)
     print(f"  Productos iniciales: {productos_antes}")
@@ -84,24 +84,32 @@ def escanear_productos(driver) -> list:
     while clics < 200:
         try:
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(1)
+            time.sleep(2)
 
             botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
             if not botones:
-                time.sleep(2)
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(3)
                 botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
                 if not botones:
                     print(f"  Boton no encontrado. Fin de productos.")
                     break
 
             boton = botones[0]
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", boton)
+            time.sleep(1)
             driver.execute_script("arguments[0].click();", boton)
             clics += 1
-            time.sleep(3)
+            time.sleep(4)
 
-            if clics % 10 == 0:
-                productos_ahora = contar_productos_en_pagina(driver)
-                print(f"  Clic {clics}: {productos_ahora} productos cargados")
+            productos_ahora = contar_productos_en_pagina(driver)
+            nuevos = productos_ahora - productos_antes
+            if nuevos > 0:
+                print(f"  Clic {clics}: +{nuevos} productos (total: {productos_ahora})")
+                productos_antes = productos_ahora
+            else:
+                print(f"  Clic {clics}: esperando carga...")
+                time.sleep(3)
 
         except Exception as e:
             print(f"  Error en clic: {e}")
@@ -175,7 +183,7 @@ def buscar_producto_individual(driver, sku: str) -> dict:
 
     try:
         driver.get(url_busqueda)
-        time.sleep(3)
+        time.sleep(5)
 
         # Verificar si llegamos a una ficha de producto o a resultados de búsqueda
         url_actual = driver.current_url
@@ -191,7 +199,7 @@ def buscar_producto_individual(driver, sku: str) -> dict:
                 if not href.startswith("http"):
                     href = "https://www.naturacosmeticos.com.ar" + href
                 driver.get(href)
-                time.sleep(2)
+                time.sleep(4)
                 soup = BeautifulSoup(driver.page_source, "html.parser")
             else:
                 return None
@@ -274,7 +282,7 @@ def main():
                     print(f"    Encontrado: lista={resultado['precio_lista_web']} promo={resultado['precio_promo_web']}")
                 else:
                     print(f"    No encontrado en la web.")
-                time.sleep(1)
+                time.sleep(2)
 
     finally:
         driver.quit()
