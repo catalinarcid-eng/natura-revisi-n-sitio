@@ -1,2 +1,78 @@
 {
+  "productos": [
+    {
+      "codigo": "NATARG-251993",
+      "precio_lista_web": 62800.0,
+      "precio_promo_web": 47100.002525,
+      "url": "https://www.naturacosmeticos.com.ar/p/regalo-padres-eau-de-toilette-kaiak-urbe-con-bolsa/NATARG-251993?position=1&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-20834",
+      "precio_lista_web": 61400.0,
+      "precio_promo_web": 36840.00404,
+      "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-unisex--humor-liberta-75ml/NATARG-20834?position=2&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-83323",
+      "precio_lista_web": 51500.0,
+      "precio_promo_web": 30900.00404,
+      "url": "https://www.naturacosmeticos.com.ar/p/kriska-shock-eau-de-toilette-femenino-100ml/NATARG-83323?position=3&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-252003",
+      "precio_lista_web": 79700.0,
+      "precio_promo_web": 47820.00404,
+      "url": "https://www.naturacosmeticos.com.ar/p/regalo-padres-eau-de-parfum-homem-con-bolsa/NATARG-252003?position=4&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-81950",
+      "precio_lista_web": 81300.0,
+      "precio_promo_web": 52845.003535,
+      "url": "https://www.naturacosmeticos.com.ar/p/homem-potence-edp-100-ml/NATARG-81950?position=5&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-177399",
+      "precio_lista_web": 104100.0,
+      "precio_promo_web": 72870.00303,
+      "url": "https://www.naturacosmeticos.com.ar/p/essencial-atrai-femenino-100-ml/NATARG-177399?position=6&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-132565",
+      "precio_lista_web": 20800.0,
+      "precio_promo_web": 13520.003535,
+      "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-tododia-ciruela-y-flor-de-vainilla-400-ml/NATARG-132565?position=7&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-111175",
+      "precio_lista_web": 64000.0,
+      "precio_promo_web": 38400.00404,
+      "url": "https://www.naturacosmeticos.com.ar/p/kaiak-oceano-edt-masculino-100-ml/NATARG-111175?position=8&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-109164",
+      "precio_lista_web": 81300.0,
+      "precio_promo_web": 60975.002525,
+      "url": "https://www.naturacosmeticos.com.ar/p/homem-tato-100-ml/NATARG-109164?position=9&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-69655",
+      "precio_lista_web": 6500.0,
+      "precio_promo_web": 3250.00505,
+      "url": "https://www.naturacosmeticos.com.ar/p/desodorante-aventura-roll-on-75ml/NATARG-69655?position=10&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-111172",
+      "precio_lista_web": 64000.0,
+      "precio_promo_web": 36480.004343,
+      "url": "https://www.naturacosmeticos.com.ar/p/kaiak-urbe-masculino/NATARG-111172?position=11&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-87512",
+      "precio_lista_web": 14400.0,
+      "precio_promo_web": 11520.00202,
+      "url": "https://www.naturacosmeticos.com.ar/p/jabones-en-barra-puro-vegetal-mora-roja-y-jabuticaba-tododia-5x90g/NATARG-87512?position=12&listTitle=category+page+list+showcase+-+todos+productos"
+    }
+  ],
+  "fecha_generado": "2026-06-24T17:01:27.912719-03:00",
+  "total": 12
 }
