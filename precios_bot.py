@@ -48,16 +48,15 @@ def limpiar_precio(texto: str) -> float:
 def extraer_codigo_de_url(url: str) -> str:
     url_limpia = url.split("?")[0]
     ultimo_segmento = url_limpia.rstrip("/").split("/")[-1]
-    match = re.search(r'(NATARG-\d+)', ultimo_segmento, re.IGNORECASE)
+    # Buscar NATARG-XXXXX o NATURA-XXXXX en el ultimo segmento
+    match = re.search(r'(NATARG-\d+|NATURA-\d+)', ultimo_segmento, re.IGNORECASE)
     if match:
         return match.group(1).upper()
-    matches = re.findall(r'(NATARG-\d+)', url, re.IGNORECASE)
+    # Fallback: buscar el ULTIMO match en toda la URL
+    matches = re.findall(r'(NATARG-\d+|NATURA-\d+)', url, re.IGNORECASE)
     if matches:
         return matches[-1].upper()
     return None
-
-def contar_productos_en_pagina(driver) -> int:
-    return len(driver.find_elements(By.CSS_SELECTOR, 'a[href*="/p/"]'))
 
 def cargar_skus_archivo() -> list:
     if not os.path.exists(SKUS_FILE):
@@ -75,61 +74,50 @@ def escanear_productos(driver) -> list:
     driver.get(URL_ARGENTINA)
     time.sleep(10)
 
-    productos_antes = contar_productos_en_pagina(driver)
-    print(f"  Productos iniciales: {productos_antes}")
-
+    # Clickear "explorar más resultados" hasta que desaparezca
     clics = 0
     while clics < 200:
         try:
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(2)
-
-            botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
-            if not botones:
-                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(3)
-                botones = driver.find_elements(By.CSS_SELECTOR, '[data-testid="product-list-load-more"]')
-                if not botones:
-                    print(f"  Boton no encontrado. Fin de productos.")
-                    break
-
-            boton = botones[0]
+            boton = driver.find_element(By.CSS_SELECTOR, '[data-testid="plp-load-more-button"], [data-testid="product-list-load-more"]')
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", boton)
             time.sleep(1)
             driver.execute_script("arguments[0].click();", boton)
             clics += 1
+            print(f"  Clic {clics}...")
             time.sleep(4)
+        except:
+            # Intentar una vez más con espera extra
+            time.sleep(5)
+            try:
+                boton = driver.find_element(By.CSS_SELECTOR, '[data-testid="plp-load-more-button"], [data-testid="product-list-load-more"]')
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", boton)
+                time.sleep(1)
+                driver.execute_script("arguments[0].click();", boton)
+                clics += 1
+                print(f"  Clic {clics} (reintento)...")
+                time.sleep(4)
+            except:
+                print(f"  Boton desaparecio. Fin de productos.")
+                break
 
-            productos_ahora = contar_productos_en_pagina(driver)
-            nuevos = productos_ahora - productos_antes
-            if nuevos > 0:
-                print(f"  Clic {clics}: +{nuevos} productos (total: {productos_ahora})")
-                productos_antes = productos_ahora
-            else:
-                print(f"  Clic {clics}: esperando carga...")
-                time.sleep(3)
-
-        except Exception as e:
-            print(f"  Error en clic: {e}")
-            break
-
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(3)
-    total_final = contar_productos_en_pagina(driver)
-    print(f"Carga completa: {clics} clics, {total_final} productos en pagina.")
+    print(f"Carga completa: {clics} clics.")
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
     productos = []
     enlaces = soup.find_all("a", href=lambda x: x and "/p/" in x)
 
     vistos = set()
+    sin_codigo = 0
     for a_tag in enlaces:
         href = a_tag.get("href", "")
         if not href.startswith("http"):
             href = "https://www.naturacosmeticos.com.ar" + href
 
         codigo = extraer_codigo_de_url(href)
-        if not codigo or codigo in vistos:
+        if not codigo:
+            sin_codigo += 1
+            continue
+        if codigo in vistos:
             continue
         vistos.add(codigo)
 
@@ -169,7 +157,7 @@ def escanear_productos(driver) -> list:
             "url": href,
         })
 
-    print(f"Productos extraidos del listado: {len(productos)}")
+    print(f"Productos extraidos del listado: {len(productos)} (enlaces totales: {len(enlaces)}, sin codigo: {sin_codigo}, duplicados: {len(enlaces) - sin_codigo - len(productos)})")
     return productos
 
 # ─── Paso 2: Buscar productos faltantes uno por uno ──────────────────────────
