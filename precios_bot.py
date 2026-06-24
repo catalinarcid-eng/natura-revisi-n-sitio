@@ -10,7 +10,6 @@ from datetime import datetime, timedelta, timezone
 
 # ─── Configuración ───────────────────────────────────────────────────────────
 URL_ARGENTINA = "https://www.naturacosmeticos.com.ar/c/todos-productos"
-URL_BUSQUEDA = "https://www.naturacosmeticos.com.ar/{}?_q={}&map=ft"
 JSON_SALIDA = "productos_web.json"
 SKUS_FILE = "skus.txt"
 
@@ -61,7 +60,6 @@ def contar_productos_en_pagina(driver) -> int:
     return len(driver.find_elements(By.CSS_SELECTOR, 'a[href*="/p/"]'))
 
 def cargar_skus_archivo() -> list:
-    """Lee la lista de SKUs del archivo skus.txt (uno por línea)."""
     if not os.path.exists(SKUS_FILE):
         print(f"Archivo {SKUS_FILE} no encontrado. Se omite segunda pasada.")
         return []
@@ -115,6 +113,8 @@ def escanear_productos(driver) -> list:
             print(f"  Error en clic: {e}")
             break
 
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
     total_final = contar_productos_en_pagina(driver)
     print(f"Carga completa: {clics} clics, {total_final} productos en pagina.")
 
@@ -158,7 +158,7 @@ def escanear_productos(driver) -> list:
                 break
             card = card.parent
 
-        # Si no hay precio tachado (sin descuento), lista = promo
+        # Si no hay precio tachado (producto sin descuento), lista = promo
         if precio_lista is None and precio_promo is not None:
             precio_lista = precio_promo
 
@@ -175,34 +175,37 @@ def escanear_productos(driver) -> list:
 # ─── Paso 2: Buscar productos faltantes uno por uno ──────────────────────────
 
 def buscar_producto_individual(driver, sku: str) -> dict:
-    """
-    Busca un SKU directamente en la web de Natura visitando su ficha.
-    Retorna dict con precio_lista_web, precio_promo_web, url, o None si no lo encuentra.
-    """
     url_busqueda = f"https://www.naturacosmeticos.com.ar/{sku}?_q={sku}&map=ft"
 
     try:
         driver.get(url_busqueda)
         time.sleep(5)
 
-        # Verificar si llegamos a una ficha de producto o a resultados de búsqueda
-        url_actual = driver.current_url
         soup = BeautifulSoup(driver.page_source, "html.parser")
-
-        # Verificar si el SKU aparece en la página
         texto_pagina = soup.get_text(separator=" ").upper()
+
+        # Si el SKU no aparece en la pagina, buscar en resultados de busqueda
         if sku not in texto_pagina:
-            # Intentar buscar en resultados de búsqueda
             enlaces_producto = soup.find_all("a", href=lambda x: x and "/p/" in x and sku.lower() in x.lower())
             if enlaces_producto:
                 href = enlaces_producto[0].get("href", "")
                 if not href.startswith("http"):
                     href = "https://www.naturacosmeticos.com.ar" + href
                 driver.get(href)
-                time.sleep(4)
+                time.sleep(5)
                 soup = BeautifulSoup(driver.page_source, "html.parser")
-            else:
-                return None
+                texto_pagina = soup.get_text(separator=" ").upper()
+
+            # Si sigue sin aparecer, intentar otra URL de busqueda
+            if sku not in texto_pagina:
+                url_busqueda2 = f"https://www.naturacosmeticos.com.ar/{sku}?_q={sku}"
+                driver.get(url_busqueda2)
+                time.sleep(5)
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                texto_pagina = soup.get_text(separator=" ").upper()
+
+                if sku not in texto_pagina:
+                    return None
 
         # Extraer precios de la ficha de producto
         precio_lista = None
@@ -226,13 +229,26 @@ def buscar_producto_individual(driver, sku: str) -> dict:
                     if val and (precio_promo is None or val < precio_promo):
                         precio_promo = val
 
-        # Fallback: buscar cualquier span con precio que no sea tachado
+        # Fallback: buscar span con clase text-xl que tenga precio
         if precio_promo is None:
             for span in soup.find_all("span", class_="text-xl"):
                 texto = span.get_text(strip=True)
                 if texto.startswith("$"):
                     precio_promo = limpiar_precio(texto)
                     break
+
+        # Fallback 2: buscar cualquier span con precio grande
+        if precio_promo is None:
+            for span in soup.find_all("span"):
+                clases = " ".join(span.get("class", []))
+                if "line-through" in clases:
+                    continue
+                texto = span.get_text(strip=True)
+                if texto.startswith("$") and re.search(r'\d', texto):
+                    val = limpiar_precio(texto)
+                    if val and val > 100:
+                        precio_promo = val
+                        break
 
         # Si no hay precio tachado (sin descuento), lista = promo
         if precio_lista is None and precio_promo is not None:
@@ -262,20 +278,22 @@ def main():
     driver = crear_driver()
     try:
         # PASO 1: Escanear el listado general
+        print("\n--- PASO 1: Escaneando listado general ---")
         productos = escanear_productos(driver)
 
         # Identificar SKUs encontrados
         codigos_encontrados = set(p["codigo"] for p in productos if p["codigo"])
 
-        # PASO 2: Buscar productos faltantes
+        # PASO 2: Buscar productos faltantes uno por uno
         if skus_archivo:
             faltantes = [sku for sku in skus_archivo if sku not in codigos_encontrados]
-            print(f"\nSKUs en tu lista: {len(skus_archivo)}")
+            print(f"\n--- PASO 2: Buscando productos faltantes ---")
+            print(f"SKUs en tu lista: {len(skus_archivo)}")
             print(f"Encontrados en listado: {len(codigos_encontrados)}")
-            print(f"Faltantes a buscar individualmente: {len(faltantes)}")
+            print(f"Faltantes a buscar: {len(faltantes)}")
 
             for i, sku in enumerate(faltantes, 1):
-                print(f"  Buscando {sku} ({i}/{len(faltantes)})...")
+                print(f"  [{i}/{len(faltantes)}] Buscando {sku}...")
                 resultado = buscar_producto_individual(driver, sku)
                 if resultado:
                     productos.append(resultado)
@@ -283,6 +301,10 @@ def main():
                 else:
                     print(f"    No encontrado en la web.")
                 time.sleep(2)
+
+            print(f"\nTotal productos despues de ambas pasadas: {len(productos)}")
+        else:
+            print(f"\nSin archivo {SKUS_FILE}. Solo se usaron resultados del listado.")
 
     finally:
         driver.quit()
