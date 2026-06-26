@@ -8,17 +8,13 @@ import re
 import json
 from datetime import datetime, timedelta, timezone
 
-# ─── Configuración ───────────────────────────────────────────────────────────
 URL_ARGENTINA = "https://www.naturacosmeticos.com.ar/c/todos-productos"
 JSON_SALIDA = "productos_web.json"
 SKUS_FILE = "skus.txt"
-
 TZ_ARGENTINA = timezone(timedelta(hours=-3))
 
-def ahora_argentina() -> datetime:
+def ahora_argentina():
     return datetime.now(TZ_ARGENTINA)
-
-# ─── Selenium ────────────────────────────────────────────────────────────────
 
 def crear_driver():
     opts = Options()
@@ -33,32 +29,35 @@ def crear_driver():
     )
     return webdriver.Chrome(options=opts)
 
-def limpiar_precio(texto: str) -> float:
+def limpiar_precio(texto):
     if not texto:
+        return None
+    if "impuesto" in texto.lower() or "nacional" in texto.lower():
         return None
     limpio = re.sub(r'[^\d,.]', '', texto)
     if not limpio:
         return None
     limpio = limpio.replace('.', '').replace(',', '.')
     try:
-        return float(limpio)
+        valor = float(limpio)
+        if valor < 10:
+            return None
+        return valor
     except ValueError:
         return None
 
-def extraer_codigo_de_url(url: str) -> str:
+def extraer_codigo_de_url(url):
     url_limpia = url.split("?")[0]
     ultimo_segmento = url_limpia.rstrip("/").split("/")[-1]
-    # Buscar NATARG-XXXXX o NATURA-XXXXX en el ultimo segmento
     match = re.search(r'(NATARG-\d+|NATURA-\d+)', ultimo_segmento, re.IGNORECASE)
     if match:
         return match.group(1).upper()
-    # Fallback: buscar el ULTIMO match en toda la URL
     matches = re.findall(r'(NATARG-\d+|NATURA-\d+)', url, re.IGNORECASE)
     if matches:
         return matches[-1].upper()
     return None
 
-def cargar_skus_archivo() -> list:
+def cargar_skus_archivo():
     if not os.path.exists(SKUS_FILE):
         print(f"Archivo {SKUS_FILE} no encontrado. Se omite segunda pasada.")
         return []
@@ -67,14 +66,76 @@ def cargar_skus_archivo() -> list:
     print(f"SKUs cargados desde {SKUS_FILE}: {len(skus)}")
     return skus
 
-# ─── Paso 1: Escaneo del listado general ─────────────────────────────────────
+def extraer_precios_de_ficha(driver, url):
+    """
+    Visita la ficha individual de un producto y extrae precios.
+    Este metodo es confiable porque la ficha siempre tiene la misma estructura:
+    - Precio promo: span#product-price o span.text-xl
+    - Precio lista (tachado): span con clase line-through
+    - Sin descuento: solo aparece el precio promo, lista = promo
+    """
+    try:
+        driver.get(url)
+        time.sleep(4)
+        soup = BeautifulSoup(driver.page_source, "html.parser")
 
-def escanear_productos(driver) -> list:
+        precio_lista = None
+        precio_promo = None
+
+        # 1. Buscar precio promo en #product-price (el mas confiable)
+        div_precio = soup.find(id="product-price")
+        if div_precio:
+            # Primero intentar aria-label del contenedor padre
+            contenedor = div_precio.find_parent(attrs={"aria-label": True})
+            if contenedor:
+                aria = contenedor.get("aria-label", "")
+                if "Precio" in aria:
+                    precio_promo = limpiar_precio(aria)
+
+            # Si no, usar el texto del span directamente
+            if precio_promo is None:
+                texto_precio = div_precio.get_text(strip=True)
+                precio_promo = limpiar_precio(texto_precio)
+
+        # 2. Fallback: buscar span.text-xl con precio
+        if precio_promo is None:
+            for span in soup.find_all("span"):
+                clases = " ".join(span.get("class", []))
+                if "text-xl" in clases:
+                    texto = span.get_text(strip=True)
+                    if "$" in texto:
+                        val = limpiar_precio(texto)
+                        if val:
+                            precio_promo = val
+                            break
+
+        # 3. Precio tachado (lista) - span con line-through
+        for span in soup.find_all("span"):
+            clases = " ".join(span.get("class", []))
+            if "line-through" in clases:
+                texto = span.get_text(strip=True)
+                val = limpiar_precio(texto)
+                if val and val > 0:
+                    precio_lista = val
+                    break
+
+        # 4. Sin descuento: lista = promo
+        if precio_lista is None and precio_promo is not None:
+            precio_lista = precio_promo
+
+        return precio_lista, precio_promo
+
+    except Exception as e:
+        print(f"    Error extrayendo precios de {url}: {e}")
+        return None, None
+
+# ─── Paso 1: Escaneo del listado (solo codigos y URLs) ───────────────────────
+
+def escanear_listado(driver):
     print(f"Cargando {URL_ARGENTINA} ...")
     driver.get(URL_ARGENTINA)
     time.sleep(10)
 
-    # Clickear "explorar más resultados" hasta que desaparezca
     clics = 0
     while clics < 200:
         try:
@@ -86,7 +147,6 @@ def escanear_productos(driver) -> list:
             print(f"  Clic {clics}...")
             time.sleep(4)
         except:
-            # Intentar una vez más con espera extra
             time.sleep(5)
             try:
                 boton = driver.find_element(By.CSS_SELECTOR, '[data-testid="plp-load-more-button"], [data-testid="product-list-load-more"]')
@@ -103,155 +163,66 @@ def escanear_productos(driver) -> list:
     print(f"Carga completa: {clics} clics.")
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    productos = []
     enlaces = soup.find_all("a", href=lambda x: x and "/p/" in x)
 
-    vistos = set()
-    sin_codigo = 0
+    productos = {}
     for a_tag in enlaces:
         href = a_tag.get("href", "")
         if not href.startswith("http"):
             href = "https://www.naturacosmeticos.com.ar" + href
-
         codigo = extraer_codigo_de_url(href)
-        if not codigo:
-            sin_codigo += 1
+        if not codigo or codigo in productos:
             continue
-        if codigo in vistos:
-            continue
-        vistos.add(codigo)
+        productos[codigo] = href
 
-        card = a_tag.parent
-        precio_lista = None
-        precio_promo = None
+    print(f"Productos unicos en listado: {len(productos)}")
+    return productos
 
-        for _ in range(6):
-            if not card:
-                break
-            tachado = card.find(class_=lambda c: c and "line-through" in c)
-            if tachado and precio_lista is None:
-                precio_lista = limpiar_precio(tachado.get_text())
+# ─── Paso 2: Visitar cada producto para precios exactos ──────────────────────
 
-            if precio_promo is None:
-                for span in card.find_all("span"):
-                    clases = span.get("class", [])
-                    if "line-through" in clases:
-                        continue
-                    texto = span.get_text(strip=True)
-                    if texto.startswith("$") and re.search(r'\d', texto):
-                        precio_promo = limpiar_precio(texto)
-                        break
+def obtener_precios_todos(driver, productos_listado, skus_archivo):
+    todos = dict(productos_listado)
 
-            if precio_lista is not None and precio_promo is not None:
-                break
-            card = card.parent
+    faltantes = 0
+    for sku in skus_archivo:
+        if sku not in todos:
+            todos[sku] = f"https://www.naturacosmeticos.com.ar/{sku}?_q={sku}&map=ft"
+            faltantes += 1
 
-        # Si no hay precio tachado (producto sin descuento), lista = promo
-        if precio_lista is None and precio_promo is not None:
-            precio_lista = precio_promo
+    print(f"\nTotal SKUs a verificar precios: {len(todos)}")
+    print(f"  Del listado: {len(productos_listado)}")
+    print(f"  Extras del archivo skus.txt: {faltantes}")
 
-        productos.append({
+    resultados = []
+    total = len(todos)
+
+    for i, (codigo, url) in enumerate(todos.items(), 1):
+        if i % 50 == 0 or i <= 3 or i == total:
+            print(f"  [{i}/{total}] {codigo}...")
+
+        precio_lista, precio_promo = extraer_precios_de_ficha(driver, url)
+
+        # Si es URL de busqueda, verificar que encontro el producto correcto
+        if "?_q=" in url and precio_promo is None:
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            enlace = soup.find("a", href=lambda x: x and "/p/" in x and codigo.lower() in x.lower())
+            if enlace:
+                href = enlace.get("href", "")
+                if not href.startswith("http"):
+                    href = "https://www.naturacosmeticos.com.ar" + href
+                precio_lista, precio_promo = extraer_precios_de_ficha(driver, href)
+                url = href
+
+        resultados.append({
             "codigo": codigo,
             "precio_lista_web": precio_lista,
             "precio_promo_web": precio_promo,
-            "url": href,
+            "url": url,
         })
 
-    print(f"Productos extraidos del listado: {len(productos)} (enlaces totales: {len(enlaces)}, sin codigo: {sin_codigo}, duplicados: {len(enlaces) - sin_codigo - len(productos)})")
-    return productos
+        time.sleep(1)
 
-# ─── Paso 2: Buscar productos faltantes uno por uno ──────────────────────────
-
-def buscar_producto_individual(driver, sku: str) -> dict:
-    url_busqueda = f"https://www.naturacosmeticos.com.ar/{sku}?_q={sku}&map=ft"
-
-    try:
-        driver.get(url_busqueda)
-        time.sleep(5)
-
-        soup = BeautifulSoup(driver.page_source, "html.parser")
-        texto_pagina = soup.get_text(separator=" ").upper()
-
-        # Si el SKU no aparece en la pagina, buscar en resultados de busqueda
-        if sku not in texto_pagina:
-            enlaces_producto = soup.find_all("a", href=lambda x: x and "/p/" in x and sku.lower() in x.lower())
-            if enlaces_producto:
-                href = enlaces_producto[0].get("href", "")
-                if not href.startswith("http"):
-                    href = "https://www.naturacosmeticos.com.ar" + href
-                driver.get(href)
-                time.sleep(5)
-                soup = BeautifulSoup(driver.page_source, "html.parser")
-                texto_pagina = soup.get_text(separator=" ").upper()
-
-            # Si sigue sin aparecer, intentar otra URL de busqueda
-            if sku not in texto_pagina:
-                url_busqueda2 = f"https://www.naturacosmeticos.com.ar/{sku}?_q={sku}"
-                driver.get(url_busqueda2)
-                time.sleep(5)
-                soup = BeautifulSoup(driver.page_source, "html.parser")
-                texto_pagina = soup.get_text(separator=" ").upper()
-
-                if sku not in texto_pagina:
-                    return None
-
-        # Extraer precios de la ficha de producto
-        precio_lista = None
-        precio_promo = None
-
-        # Precio tachado (de lista)
-        tachado = soup.find(class_=lambda c: c and "line-through" in c)
-        if tachado:
-            precio_lista = limpiar_precio(tachado.get_text())
-
-        # Precio promo: buscar en el div#product-price
-        div_precio = soup.find(id="product-price")
-        if div_precio:
-            for span in div_precio.find_all("span"):
-                clases = " ".join(span.get("class", []))
-                if "line-through" in clases:
-                    continue
-                texto = span.get_text(strip=True)
-                if texto.startswith("$") and re.search(r'\d', texto):
-                    val = limpiar_precio(texto)
-                    if val and (precio_promo is None or val < precio_promo):
-                        precio_promo = val
-
-        # Fallback: buscar span con clase text-xl que tenga precio
-        if precio_promo is None:
-            for span in soup.find_all("span", class_="text-xl"):
-                texto = span.get_text(strip=True)
-                if texto.startswith("$"):
-                    precio_promo = limpiar_precio(texto)
-                    break
-
-        # Fallback 2: buscar cualquier span con precio grande
-        if precio_promo is None:
-            for span in soup.find_all("span"):
-                clases = " ".join(span.get("class", []))
-                if "line-through" in clases:
-                    continue
-                texto = span.get_text(strip=True)
-                if texto.startswith("$") and re.search(r'\d', texto):
-                    val = limpiar_precio(texto)
-                    if val and val > 100:
-                        precio_promo = val
-                        break
-
-        # Si no hay precio tachado (sin descuento), lista = promo
-        if precio_lista is None and precio_promo is not None:
-            precio_lista = precio_promo
-
-        return {
-            "codigo": sku,
-            "precio_lista_web": precio_lista,
-            "precio_promo_web": precio_promo,
-            "url": driver.current_url,
-        }
-
-    except Exception as e:
-        print(f"    Error buscando {sku}: {e}")
-        return None
+    return resultados
 
 # ─── Main ────────────────────────────────────────────────────────────────────
 
@@ -260,39 +231,15 @@ def main():
     print(f"Natura Precios Bot - {ahora_argentina().strftime('%d/%m/%Y %H:%M:%S')}")
     print("=" * 60)
 
-    # Cargar lista de SKUs del archivo (para segunda pasada)
     skus_archivo = cargar_skus_archivo()
 
     driver = crear_driver()
     try:
-        # PASO 1: Escanear el listado general
-        print("\n--- PASO 1: Escaneando listado general ---")
-        productos = escanear_productos(driver)
+        print("\n--- PASO 1: Escaneando listado ---")
+        productos_listado = escanear_listado(driver)
 
-        # Identificar SKUs encontrados
-        codigos_encontrados = set(p["codigo"] for p in productos if p["codigo"])
-
-        # PASO 2: Buscar productos faltantes uno por uno
-        if skus_archivo:
-            faltantes = [sku for sku in skus_archivo if sku not in codigos_encontrados]
-            print(f"\n--- PASO 2: Buscando productos faltantes ---")
-            print(f"SKUs en tu lista: {len(skus_archivo)}")
-            print(f"Encontrados en listado: {len(codigos_encontrados)}")
-            print(f"Faltantes a buscar: {len(faltantes)}")
-
-            for i, sku in enumerate(faltantes, 1):
-                print(f"  [{i}/{len(faltantes)}] Buscando {sku}...")
-                resultado = buscar_producto_individual(driver, sku)
-                if resultado:
-                    productos.append(resultado)
-                    print(f"    Encontrado: lista={resultado['precio_lista_web']} promo={resultado['precio_promo_web']}")
-                else:
-                    print(f"    No encontrado en la web.")
-                time.sleep(2)
-
-            print(f"\nTotal productos despues de ambas pasadas: {len(productos)}")
-        else:
-            print(f"\nSin archivo {SKUS_FILE}. Solo se usaron resultados del listado.")
+        print("\n--- PASO 2: Obteniendo precios de cada producto ---")
+        productos = obtener_precios_todos(driver, productos_listado, skus_archivo)
 
     finally:
         driver.quit()
