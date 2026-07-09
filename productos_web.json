@@ -554,44 +554,44 @@
     },
     {
       "codigo": "NATARG-90927",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 79100.0,
+      "precio_promo_web": 55370.0,
       "url": "https://www.naturacosmeticos.com.ar/p/luna-intenso-edp-50-ml/NATARG-90927?position=93&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-206238",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 36900.0,
+      "precio_promo_web": 25830.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-natura-humor-vibras-25-ml/NATARG-206238?position=94&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-69817",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14900.0,
+      "precio_promo_web": 14900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-los-pies-ekos-castana-75-g/NATARG-69817?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148403",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 8890.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-para-peinar-modeladora-cabellos-rizados-300-ml/NATARG-148403?position=96&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-162222",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14000.0,
+      "precio_promo_web": 11200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/pulpa-hidratante-para-manos-ekos-cacao-75-g/NATARG-162222?position=97&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-93620",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 104100.0,
+      "precio_promo_web": 72870.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-exclusivo-floral-eau-de-parfum-femenino-100ml/NATARG-93620?position=98&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-88075",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 31900.0,
+      "precio_promo_web": 23925.0,
       "url": "https://www.naturacosmeticos.com.ar/p/tododia-body-splash-mora-roja-y-jabuticaba-femenino-200ml/NATARG-88075?position=99&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3278,14 +3278,14 @@
     },
     {
       "codigo": "NATARG-174159",
-      "precio_lista_web": 23300.0,
-      "precio_promo_web": 18640.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mate-creer-para-ver/NATARG-174159?position=551&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-164506",
-      "precio_lista_web": 13100.0,
-      "precio_promo_web": 10480.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-mascara-lumina-fuerza-y-reparacion-molecular-250-ml/NATARG-164506?position=552&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3356,14 +3356,14 @@
     },
     {
       "codigo": "NATARG-204120",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 3700.0,
+      "precio_promo_web": 3330.0,
       "url": "https://www.naturacosmeticos.com.ar/p/bolsa-mediana-natura-1-unidad/NATARG-204120?position=564&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174206",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15100.0,
+      "precio_promo_web": 13590.0,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-de-tratamiento-antienvejecimiento-regenerador-capilar-lumina-300-ml/NATARG-174206?position=565&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6529,6 +6529,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1095&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-09T15:29:20.485591-03:00",
+  "fecha_generado": "2026-07-09T17:41:18.678517-03:00",
   "total": 1088
 }
