@@ -21,7 +21,7 @@
     {
       "codigo": "NATARG-111172",
       "precio_lista_web": 64000.0,
-      "precio_promo_web": 35200.0,
+      "precio_promo_web": 38400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kaiak-urbe-masculino/NATARG-111172?position=4&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -405,7 +405,7 @@
     {
       "codigo": "NATARG-95034",
       "precio_lista_web": 14000.0,
-      "precio_promo_web": 8400.0,
+      "precio_promo_web": 14000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-manos-ekos-pitanga-75-g/NATARG-95034?position=68&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -578,14 +578,14 @@
     },
     {
       "codigo": "NATARG-118463",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 125000.0,
+      "precio_promo_web": 81250.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-unico-eau-de-parfum-masculino-90-ml/NATARG-118463?position=97&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-112783",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 21000.0,
+      "precio_promo_web": 14700.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto--oleo-trifasico-corporal-maracuya-200-ml/NATARG-112783?position=98&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3188,20 +3188,20 @@
     },
     {
       "codigo": "NATARG-92520",
-      "precio_lista_web": 30700.0,
-      "precio_promo_web": 21490.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/labial-cc-hidratante-una/NATARG-92520?position=536&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-169245",
-      "precio_lista_web": 78300.0,
-      "precio_promo_web": 62640.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/serum-intensivo-antioxidante-chronos-derma-15-ml/NATARG-169245?position=537&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-121968",
-      "precio_lista_web": 16300.0,
-      "precio_promo_web": 14670.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/concentrado-relajante-tododia-todanoche-800-mg/NATARG-121968?position=538&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6505,6 +6505,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/perfume-essencial-exclusivo-masculino-100-ml/NATARG-218361?position=1091&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-11T14:00:33.124759-03:00",
+  "fecha_generado": "2026-07-11T16:31:42.455479-03:00",
   "total": 1084
 }
