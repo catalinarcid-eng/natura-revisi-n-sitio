@@ -285,7 +285,7 @@
     {
       "codigo": "NATARG-121944",
       "precio_lista_web": 83300.0,
-      "precio_promo_web": 58310.0,
+      "precio_promo_web": 54145.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-essencial-oud-eau-de-parfum-femenino-100-ml/NATARG-121944?position=48&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -345,7 +345,7 @@
     {
       "codigo": "NATARG-64749",
       "precio_lista_web": 61400.0,
-      "precio_promo_web": 46050.0,
+      "precio_promo_web": 36840.0,
       "url": "https://www.naturacosmeticos.com.ar/p/humor-proprio-edt-femenino-75ml/NATARG-64749?position=58&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -590,38 +590,38 @@
     },
     {
       "codigo": "NATARG-134723",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 46000.0,
+      "precio_promo_web": 36800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-antisenales-restauracion-y-cuidado-70-dia-chronos-derma-40g/NATARG-134723?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-97269",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14000.0,
+      "precio_promo_web": 11200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-manos-ekos-acai-75-g/NATARG-97269?position=101&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-2825",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15700.0,
+      "precio_promo_web": 10990.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-hidratante-corporal-frutas-rojas-400ml-tododia/NATARG-2825?position=102&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-69654",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 6500.0,
+      "precio_promo_web": 4225.0,
       "url": "https://www.naturacosmeticos.com.ar/p/desodorante-roll-on-antimanchas-75ml/NATARG-69654?position=103&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-155868",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14000.0,
+      "precio_promo_web": 12600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/desodorante-en-spray-corporal-perfumado-paz-e-humor-100-ml/NATARG-155868?position=104&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-111174",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 64000.0,
+      "precio_promo_web": 51200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-kaiak-aero-masculino-100-ml/NATARG-111174?position=105&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6505,6 +6505,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/perfume-essencial-exclusivo-masculino-100-ml/NATARG-218361?position=1091&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-12T13:32:58.305776-03:00",
+  "fecha_generado": "2026-07-12T16:36:54.322130-03:00",
   "total": 1084
 }
