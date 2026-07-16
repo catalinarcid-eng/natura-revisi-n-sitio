@@ -590,38 +590,38 @@
     },
     {
       "codigo": "NATARG-160265",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 8900.0,
+      "precio_promo_web": 8900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-para-manos-humor-proprio-40-g/NATARG-160265?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-203381",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20900.0,
+      "precio_promo_web": 17765.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-hidratante-para-el-cuerpo-ekos-castana-400-ml/NATARG-203381?position=101&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-150180",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 26100.0,
+      "precio_promo_web": 13050.0,
       "url": "https://www.naturacosmeticos.com.ar/p/aceite-bifasico-corporal-tododia-avellana-y-casis-120-ml/NATARG-150180?position=102&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-206238",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 36900.0,
+      "precio_promo_web": 25830.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-natura-humor-vibras-25-ml/NATARG-206238?position=103&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-245741",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 92000.0,
+      "precio_promo_web": 92000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-repuesto-antisenales-60-dia-y-noche-chronos-derma/NATARG-245741?position=104&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-111174",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 64000.0,
+      "precio_promo_web": 64000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-kaiak-aero-masculino-100-ml/NATARG-111174?position=105&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3152,38 +3152,38 @@
     },
     {
       "codigo": "NATARG-135024",
-      "precio_lista_web": 33800.0,
-      "precio_promo_web": 25350.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-12f-30-ml/NATARG-135024?position=531&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-127761",
-      "precio_lista_web": 54000.0,
-      "precio_promo_web": 40500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-powder-multifuncional-20-g/NATARG-127761?position=532&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-107125",
-      "precio_lista_web": 34400.0,
-      "precio_promo_web": 25800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-cushion-nude-me/NATARG-107125?position=533&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-242474",
-      "precio_lista_web": 12700.0,
-      "precio_promo_web": 10795.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/set-de-esponjas-creer-para-ver/NATARG-242474?position=534&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-166329",
-      "precio_lista_web": 22200.0,
-      "precio_promo_web": 15540.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-faces-checkmatte-25-ml/NATARG-166329?position=535&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-147434",
-      "precio_lista_web": 19900.0,
-      "precio_promo_web": 19900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/spray-para-peinar-antipolucion-cabellos-con-danos-leves-lumina-150ml/NATARG-147434?position=536&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6481,6 +6481,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-rubor-intense-me/NATARG-00045?position=1087&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-16T09:05:02.221406-03:00",
+  "fecha_generado": "2026-07-16T11:18:29.925348-03:00",
   "total": 1080
 }
