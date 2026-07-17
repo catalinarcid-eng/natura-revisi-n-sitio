@@ -572,26 +572,26 @@
     },
     {
       "codigo": "NATARG-203381",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20900.0,
+      "precio_promo_web": 17765.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-hidratante-para-el-cuerpo-ekos-castana-400-ml/NATARG-203381?position=97&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148403",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 9525.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-para-peinar-modeladora-cabellos-rizados-300-ml/NATARG-148403?position=98&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-2834",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14400.0,
+      "precio_promo_web": 11520.0,
       "url": "https://www.naturacosmeticos.com.ar/p/jabones-en-barra-puro-vegetal-frutas-rojas-tododia-5x90g/NATARG-2834?position=99&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-189563",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15400.0,
+      "precio_promo_web": 10780.0,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-facial-intensivo-faces-50-ml/NATARG-189563?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6481,6 +6481,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1087&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-17T05:38:38.012715-03:00",
+  "fecha_generado": "2026-07-17T08:20:10.612400-03:00",
   "total": 1080
 }
