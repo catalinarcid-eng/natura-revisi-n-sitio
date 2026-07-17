@@ -566,8 +566,8 @@
     },
     {
       "codigo": "NATARG-148403",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 9525.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-para-peinar-modeladora-cabellos-rizados-300-ml/NATARG-148403?position=96&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3218,32 +3218,32 @@
     },
     {
       "codigo": "NATARG-147444",
-      "precio_lista_web": 15100.0,
-      "precio_promo_web": 12835.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-fortificante-anticaida-y-crecimiento-lumina-300ml/NATARG-147444?position=542&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-134586",
-      "precio_lista_web": 36100.0,
-      "precio_promo_web": 28880.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mousse-de-limpieza-intensiva-chronos-derma-85g/NATARG-134586?position=543&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-191617",
-      "precio_lista_web": 48300.0,
-      "precio_promo_web": 33810.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191617?position=544&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110189",
-      "precio_lista_web": 57800.0,
-      "precio_promo_web": 52020.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110189?position=545&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-169244",
-      "precio_lista_web": 54800.0,
-      "precio_promo_web": 35620.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-serum-intensivo-reductor-de-oleosidad-chronos-derma-30-ml/NATARG-169244?position=546&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3254,26 +3254,26 @@
     },
     {
       "codigo": "NATARG-217745",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 41260.0,
+      "precio_promo_web": 41260.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-ekos-murumuru-mascara--repuestos-shampoo--acondicionador/NATARG-217745?position=548&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-242474",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 10795.0,
       "url": "https://www.naturacosmeticos.com.ar/p/set-de-esponjas-creer-para-ver/NATARG-242474?position=549&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-132566",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20800.0,
+      "precio_promo_web": 20800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritivatododia-frutas-rojas-400-ml/NATARG-132566?position=550&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-92800",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 12700.0,
       "url": "https://www.naturacosmeticos.com.ar/p/natura-mama-y-bebe-jabon-liquido-de-la-cabeza-a-los-pies/NATARG-92800?position=551&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6481,6 +6481,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1087&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-17T14:22:06.701293-03:00",
+  "fecha_generado": "2026-07-17T17:10:32.928712-03:00",
   "total": 1080
 }
