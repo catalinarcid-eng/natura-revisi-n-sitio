@@ -548,8 +548,8 @@
     },
     {
       "codigo": "NATARG-28175",
-      "precio_lista_web": 13200.0,
-      "precio_promo_web": 9240.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-de-jabon-cremoso-para-manos/NATARG-28175?position=92&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -566,8 +566,8 @@
     },
     {
       "codigo": "NATARG-189563",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15400.0,
+      "precio_promo_web": 10780.0,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-facial-intensivo-faces-50-ml/NATARG-189563?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3188,20 +3188,20 @@
     },
     {
       "codigo": "NATARG-110189",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 57800.0,
+      "precio_promo_web": 57800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110189?position=536&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-118797",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 38700.0,
+      "precio_promo_web": 27090.0,
       "url": "https://www.naturacosmeticos.com.ar/p/primer-facial-fps40-una--30-ml/NATARG-118797?position=537&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110188",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 57800.0,
+      "precio_promo_web": 57800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110188?position=538&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3260,44 +3260,44 @@
     },
     {
       "codigo": "NATARG-167289",
-      "precio_lista_web": 18800.0,
-      "precio_promo_web": 15040.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mascarilla-lumina-restauracion-y-liso-prolongado-250-ml/NATARG-167289?position=548&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-23152",
-      "precio_lista_web": 13800.0,
-      "precio_promo_web": 13800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-tododia-avellana-y-cassis-200ml/NATARG-23152?position=549&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-92800",
-      "precio_lista_web": 12700.0,
-      "precio_promo_web": 12700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/natura-mama-y-bebe-jabon-liquido-de-la-cabeza-a-los-pies/NATARG-92800?position=550&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-191636",
-      "precio_lista_web": 48300.0,
-      "precio_promo_web": 33810.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191636?position=551&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-135035",
-      "precio_lista_web": 33800.0,
-      "precio_promo_web": 25350.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-21c-30-ml/NATARG-135035?position=552&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110187",
-      "precio_lista_web": 57800.0,
-      "precio_promo_web": 57800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110187?position=553&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-191628",
-      "precio_lista_web": 48300.0,
-      "precio_promo_web": 33810.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191628?position=554&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6481,6 +6481,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1087&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-19T06:18:10.190279-03:00",
+  "fecha_generado": "2026-07-19T08:33:08.673253-03:00",
   "total": 1080
 }
