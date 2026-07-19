@@ -578,14 +578,14 @@
     },
     {
       "codigo": "NATARG-27371",
-      "precio_lista_web": 30400.0,
-      "precio_promo_web": 22800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/lapiz-delineador-retractil-para-ojos-a-prueba-de-agua-una-280mg/NATARG-27371?position=97&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-00029",
-      "precio_lista_web": 21900.0,
-      "precio_promo_web": 17520.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/lapiz-kajal-para-ojos-negro/NATARG-00029?position=98&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3080,38 +3080,38 @@
     },
     {
       "codigo": "NATARG-154870",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 9900.0,
+      "precio_promo_web": 8415.0,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-nutritivo-tododia-durazno-y-almendra--280-ml/NATARG-154870?position=518&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-102402",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 7900.0,
+      "precio_promo_web": 7900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-cabellos-rizados-nature-250-ml/NATARG-102402?position=519&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-70402",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 16200.0,
+      "precio_promo_web": 16200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/jabon-liquido-para-manos-ekos-castana-250-ml/NATARG-70402?position=520&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148158",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12700.0,
+      "precio_promo_web": 12700.0,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-matizador-cabellos-rubios-o-con-canas-lumina-300ml/NATARG-148158?position=521&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-164508",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 19900.0,
+      "precio_promo_web": 19900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/serum-nocturno-fuerza-y-reparacion-molecular-lumina-cabellos-fragiles-y-quebradizos-100-ml/NATARG-164508?position=522&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-160216",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 11300.0,
+      "precio_promo_web": 11300.0,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-anticaida-homem-300-ml/NATARG-160216?position=523&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3242,56 +3242,56 @@
     },
     {
       "codigo": "NATARG-156236",
-      "precio_lista_web": 8600.0,
-      "precio_promo_web": 6880.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-crema-para-peinar-nutritiva--tododia-durazno-y-almendras-180-ml/NATARG-156236?position=545&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-176904",
-      "precio_lista_web": 7700.0,
-      "precio_promo_web": 7700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/gel-2-en-1-barba-y-post-barba-kaiak-urbe-50-g/NATARG-176904?position=546&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-151019",
-      "precio_lista_web": 36900.0,
-      "precio_promo_web": 25830.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/multicorrector-antiedad-homem-40-g/NATARG-151019?position=547&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-191622",
-      "precio_lista_web": 48300.0,
-      "precio_promo_web": 33810.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191622?position=548&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-167289",
-      "precio_lista_web": 18800.0,
-      "precio_promo_web": 15040.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mascarilla-lumina-restauracion-y-liso-prolongado-250-ml/NATARG-167289?position=549&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-23152",
-      "precio_lista_web": 13800.0,
-      "precio_promo_web": 13800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-tododia-avellana-y-cassis-200ml/NATARG-23152?position=550&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-92800",
-      "precio_lista_web": 12700.0,
-      "precio_promo_web": 12700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/natura-mama-y-bebe-jabon-liquido-de-la-cabeza-a-los-pies/NATARG-92800?position=551&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-191636",
-      "precio_lista_web": 48300.0,
-      "precio_promo_web": 33810.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191636?position=552&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-135035",
-      "precio_lista_web": 33800.0,
-      "precio_promo_web": 25350.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-21c-30-ml/NATARG-135035?position=553&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6481,6 +6481,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1087&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-19T14:03:33.353623-03:00",
+  "fecha_generado": "2026-07-19T17:09:14.342578-03:00",
   "total": 1080
 }
