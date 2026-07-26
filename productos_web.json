@@ -578,50 +578,50 @@
     },
     {
       "codigo": "NATARG-169222",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 78300.0,
+      "precio_promo_web": 54810.0,
       "url": "https://www.naturacosmeticos.com.ar/p/serum-intensivo-multiaclarador-chronos-30-ml/NATARG-169222?position=98&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-189449",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 6500.0,
+      "precio_promo_web": 5200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/desodorante-antitranspirante-roll-on-tododia-hojas-de-limon-y-guanabana-70-ml/NATARG-189449?position=99&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-194522",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 8700.0,
+      "precio_promo_web": 6960.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-manos-ekos-pitanga-40-g/NATARG-194522?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-177400",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 104100.0,
+      "precio_promo_web": 72870.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-atrai-edp-masculino-100-ml/NATARG-177400?position=101&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-167236",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 16300.0,
+      "precio_promo_web": 11410.0,
       "url": "https://www.naturacosmeticos.com.ar/p/balsamo-labial-reparador-hidratante-chronos-derma-15-ml/NATARG-167236?position=102&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-147412",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 9300.0,
+      "precio_promo_web": 6975.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-shampoo-nutritivo-cabellos-secos-o-resecos-300ml/NATARG-147412?position=103&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174032",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 16200.0,
+      "precio_promo_web": 12960.0,
       "url": "https://www.naturacosmeticos.com.ar/p/esencia-tododia-flor-de-ciruela-60-ml/NATARG-174032?position=104&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-194812",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 13800.0,
+      "precio_promo_web": 9660.0,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-corporal-humor-proprio-femenino-120-ml/NATARG-194812?position=105&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3194,14 +3194,14 @@
     },
     {
       "codigo": "NATARG-148412",
-      "precio_lista_web": 18800.0,
-      "precio_promo_web": 15040.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mascara-regeneradora-cabellos-quimicamente-danados-lumina-250ml/NATARG-148412?position=538&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-00005",
-      "precio_lista_web": 38700.0,
-      "precio_promo_web": 38700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-una/NATARG-00005?position=539&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3254,14 +3254,14 @@
     },
     {
       "codigo": "NATARG-9619",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 14800.0,
+      "precio_promo_web": 11100.0,
       "url": "https://www.naturacosmeticos.com.ar/p/faces-lapiz-para-labios-1-4-g/NATARG-9619?position=548&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-134697",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 65700.0,
+      "precio_promo_web": 45990.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-antisenales-restauracion-y-cuidado-70-dia-chronos-derma-40g/NATARG-134697?position=549&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6451,6 +6451,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-stick-fps-50-una-12-g/NATARG-181511?position=1082&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-26T08:51:31.832126-03:00",
+  "fecha_generado": "2026-07-26T11:18:47.843767-03:00",
   "total": 1075
 }
