@@ -584,14 +584,14 @@
     },
     {
       "codigo": "NATARG-167236",
-      "precio_lista_web": 16300.0,
-      "precio_promo_web": 11410.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/balsamo-labial-reparador-hidratante-chronos-derma-15-ml/NATARG-167236?position=99&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-118463",
-      "precio_lista_web": 125000.0,
-      "precio_promo_web": 87500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-unico-eau-de-parfum-masculino-90-ml/NATARG-118463?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3194,8 +3194,8 @@
     },
     {
       "codigo": "NATARG-215289",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 18600.0,
+      "precio_promo_web": 18600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-lumina-opaco-y-coloracion-repuestos-shampoo--acondicionador/NATARG-215289?position=538&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6451,6 +6451,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-stick-fps-50-una-12-g/NATARG-181511?position=1082&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-27T04:34:28.131832-03:00",
+  "fecha_generado": "2026-07-27T10:27:58.332951-03:00",
   "total": 1075
 }
