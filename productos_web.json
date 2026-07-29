@@ -548,20 +548,20 @@
     },
     {
       "codigo": "NATARG-64750",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 61400.0,
+      "precio_promo_web": 61400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/humor-pazyhumor-eau-de-toilette-masculino-75-ml/NATARG-64750?position=93&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-118463",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 125000.0,
+      "precio_promo_web": 125000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-unico-eau-de-parfum-masculino-90-ml/NATARG-118463?position=94&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148016",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 10000.0,
+      "precio_promo_web": 10000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-para-manos-ciruela-y-flor-de-vainilla-tododia-50-g/NATARG-148016?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3254,20 +3254,20 @@
     },
     {
       "codigo": "NATARG-200649",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 18800.0,
+      "precio_promo_web": 18800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/mascara-hidratante-lumina-para-hidratacion-y-proteccion-antipolucion-250-ml/NATARG-200649?position=547&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-132560",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20800.0,
+      "precio_promo_web": 20800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-tododia-nuez-pecan-y-cacao-400-ml/NATARG-132560?position=548&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-204118",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 3000.0,
+      "precio_promo_web": 3000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/bolsa-mini-natura-1-unidad/NATARG-204118?position=549&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3290,38 +3290,38 @@
     },
     {
       "codigo": "NATARG-121968",
-      "precio_lista_web": 16300.0,
-      "precio_promo_web": 16300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/concentrado-relajante-tododia-todanoche-800-mg/NATARG-121968?position=553&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-15825",
-      "precio_lista_web": 15900.0,
-      "precio_promo_web": 15900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/esmalte-base-primer-3d-gel-una-8ml/NATARG-15825?position=554&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-162087",
-      "precio_lista_web": 12300.0,
-      "precio_promo_web": 12300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/jabones-en-barra-masajeadores-ekos-andiroba-2-unidades-de-100-g-cu/NATARG-162087?position=555&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-109143",
-      "precio_lista_web": 16400.0,
-      "precio_promo_web": 16400.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/delineador-retractil-faces-280-mg/NATARG-109143?position=556&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148412",
-      "precio_lista_web": 18800.0,
-      "precio_promo_web": 18800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mascara-regeneradora-cabellos-quimicamente-danados-lumina-250ml/NATARG-148412?position=557&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148159",
-      "precio_lista_web": 20900.0,
-      "precio_promo_web": 20900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/ampolla-restauracion-antiamarillamiento-cabellos-rubios-o-con-canas-4-unidades-de-20-ml-cu/NATARG-148159?position=558&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6451,6 +6451,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110201?position=1082&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-29T09:30:45.500841-03:00",
+  "fecha_generado": "2026-07-29T12:06:42.211628-03:00",
   "total": 1075
 }
