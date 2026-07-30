@@ -3134,38 +3134,38 @@
     },
     {
       "codigo": "NATARG-116690",
-      "precio_lista_web": 16200.0,
-      "precio_promo_web": 16200.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-check-mate-10-g/NATARG-116690?position=527&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-169229",
-      "precio_lista_web": 78300.0,
-      "precio_promo_web": 78300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/serum-intensivo-reductor-de-oleosidad-chronos-derma-30-ml/NATARG-169229?position=528&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-109143",
-      "precio_lista_web": 16400.0,
-      "precio_promo_web": 16400.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/delineador-retractil-faces-280-mg/NATARG-109143?position=529&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-105714",
-      "precio_lista_web": 25500.0,
-      "precio_promo_web": 25500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/pincel-corrector/NATARG-105714?position=530&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-173606",
-      "precio_lista_web": 33800.0,
-      "precio_promo_web": 33800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-base-liquida-hd-una-30-ml/NATARG-173606?position=531&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-117124",
-      "precio_lista_web": 18500.0,
-      "precio_promo_web": 18500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/desmaquillante-para-rostro-faces-120-ml/NATARG-117124?position=532&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3356,26 +3356,26 @@
     },
     {
       "codigo": "NATARG-15825",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15900.0,
+      "precio_promo_web": 15900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/esmalte-base-primer-3d-gel-una-8ml/NATARG-15825?position=566&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148477",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 123600.0,
+      "precio_promo_web": 123600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-parfum-ekos-pedra-50-ml/NATARG-148477?position=567&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-121958",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20800.0,
+      "precio_promo_web": 20800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nube-relajante-para-el-cuerpo-tododia-todanoche-200-ml/NATARG-121958?position=568&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-134778",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 33800.0,
+      "precio_promo_web": 33800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-15c-30-ml/NATARG-134778?position=569&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6451,6 +6451,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1082&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-30T09:13:19.377846-03:00",
+  "fecha_generado": "2026-07-30T11:56:00.524619-03:00",
   "total": 1075
 }
