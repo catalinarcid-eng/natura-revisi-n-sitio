@@ -561,7 +561,7 @@
     {
       "codigo": "NATARG-166353",
       "precio_lista_web": 15400.0,
-      "precio_promo_web": 11550.0,
+      "precio_promo_web": 7700.0,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-facial-matificante-faces-50-ml/NATARG-166353?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -572,8 +572,8 @@
     },
     {
       "codigo": "NATARG-183275",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 41900.0,
+      "precio_promo_web": 29330.0,
       "url": "https://www.naturacosmeticos.com.ar/p/protector-solar-facial-multiprotector-aclarador-fps-50-50-ml/NATARG-183275?position=97&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3140,26 +3140,26 @@
     },
     {
       "codigo": "NATARG-00078",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 11500.0,
+      "precio_promo_web": 11500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-studio-palette-dorado-sparkling-2-g/NATARG-00078?position=528&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-147448",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 20900.0,
+      "precio_promo_web": 20900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/ampolla-reparacion-instantanea-cabellos-secos-o-resecos-lumina-4-unidades-de-20-ml-cu/NATARG-147448?position=529&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-170505",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 25100.0,
+      "precio_promo_web": 25100.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kaiak-urbe-masculino-eau-de-toilette-miniatura-25-ml/NATARG-170505?position=530&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-173602",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 33800.0,
+      "precio_promo_web": 33800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-base-liquida-hd-una-30-ml/NATARG-173602?position=532&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3176,26 +3176,26 @@
     },
     {
       "codigo": "NATARG-162220",
-      "precio_lista_web": 23400.0,
-      "precio_promo_web": 21060.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/jabones-en-barra-puro-vegetal-ekos-cacao-4-unidades-de-100-g-cu/NATARG-162220?position=535&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174611",
-      "precio_lista_web": 17500.0,
-      "precio_promo_web": 17500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/hidratante-para-el-cuerpo-ekos-pitanga-preta-250-ml/NATARG-174611?position=536&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-171365",
-      "precio_lista_web": 32900.0,
-      "precio_promo_web": 32900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/aceite-de-limpieza-desmaquillante-chronos-125-ml/NATARG-171365?position=537&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-92804",
-      "precio_lista_web": 10300.0,
-      "precio_promo_web": 10300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/natura-mama-y-bebe-locion-hidratante/NATARG-92804?position=538&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6451,6 +6451,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-humor-on-line-femenino-75-ml/NATARG-105351?position=1082&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-07-31T09:36:48.218434-03:00",
+  "fecha_generado": "2026-07-31T12:01:17.980042-03:00",
   "total": 1075
 }
