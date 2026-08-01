@@ -590,20 +590,20 @@
     },
     {
       "codigo": "NATARG-00068",
-      "precio_lista_web": 57800.0,
-      "precio_promo_web": 57800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me/NATARG-00068?position=100&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-215279",
-      "precio_lista_web": 18600.0,
-      "precio_promo_web": 13020.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-lumina-repuestos-nutricion-shampoo--acondicionador/NATARG-215279?position=101&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-59313",
-      "precio_lista_web": 38700.0,
-      "precio_promo_web": 38700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/blur-efecto-instantaneo/NATARG-59313?position=102&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6475,6 +6475,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-stick-fps-50-una-12-g/NATARG-181510?position=1086&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-01T10:45:09.324643-03:00",
+  "fecha_generado": "2026-08-01T13:36:25.078526-03:00",
   "total": 1079
 }
