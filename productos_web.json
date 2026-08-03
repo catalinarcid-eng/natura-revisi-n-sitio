@@ -584,8 +584,8 @@
     },
     {
       "codigo": "NATARG-59313",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 38700.0,
+      "precio_promo_web": 38700.0,
       "url": "https://www.naturacosmeticos.com.ar/p/blur-efecto-instantaneo/NATARG-59313?position=99&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6475,6 +6475,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1086&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-03T03:54:01.681558-03:00",
+  "fecha_generado": "2026-08-03T09:55:27.033228-03:00",
   "total": 1079
 }
