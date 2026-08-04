@@ -369,7 +369,7 @@
     {
       "codigo": "NATARG-73573",
       "precio_lista_web": 46400.0,
-      "precio_promo_web": 29990.0,
+      "precio_promo_web": 46400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/frescor-ekos-pitanga-150-ml/NATARG-73573?position=62&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -506,8 +506,8 @@
     },
     {
       "codigo": "NATARG-73574",
-      "precio_lista_web": 46400.0,
-      "precio_promo_web": 46400.0,
+      "precio_lista_web": 30160.0,
+      "precio_promo_web": 30160.0,
       "url": "https://www.naturacosmeticos.com.ar/p/frescor-ekos-maracuya-150-ml/NATARG-73574?position=85&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -560,14 +560,14 @@
     },
     {
       "codigo": "NATARG-93617",
-      "precio_lista_web": 104100.0,
-      "precio_promo_web": 67665.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-exclusivo-eau-de-parfum-masculino-100ml/NATARG-93617?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-28175",
-      "precio_lista_web": 13200.0,
-      "precio_promo_web": 13200.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-de-jabon-cremoso-para-manos/NATARG-28175?position=96&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6061,6 +6061,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/trio-de-crema-de-manos-ekos/NATARG-189574?position=1017&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-04T08:55:49.659197-03:00",
+  "fecha_generado": "2026-08-04T11:33:02.757648-03:00",
   "total": 1010
 }
