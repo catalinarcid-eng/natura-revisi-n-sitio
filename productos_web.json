@@ -189,7 +189,7 @@
     {
       "codigo": "NATARG-111173",
       "precio_lista_web": 64000.0,
-      "precio_promo_web": 38400.0,
+      "precio_promo_web": 41600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kaiak-aventura-masculino/NATARG-111173?position=32&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -231,7 +231,7 @@
     {
       "codigo": "NATARG-170153",
       "precio_lista_web": 61400.0,
-      "precio_promo_web": 39910.0,
+      "precio_promo_web": 61400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-toilette-genderless-humor-envolve-75-ml/NATARG-170153?position=39&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -309,7 +309,7 @@
     {
       "codigo": "NATARG-203398",
       "precio_lista_web": 27700.0,
-      "precio_promo_web": 14560.0,
+      "precio_promo_web": 19390.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-el-cuerpo-ekos-acai-400-ml/NATARG-203398?position=52&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3560,8 +3560,8 @@
     },
     {
       "codigo": "NATARG-110184",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 57800.0,
+      "precio_promo_web": 57800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110184?position=599&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -5983,6 +5983,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-20n-medio-claro-30-ml-una/NATARG-108130?position=1004&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-06T07:00:52.514046-03:00",
+  "fecha_generado": "2026-08-06T09:53:24.992032-03:00",
   "total": 997
 }
