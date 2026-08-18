@@ -356,14 +356,14 @@
     },
     {
       "codigo": "NATARG-93618",
-      "precio_lista_web": 104100.0,
-      "precio_promo_web": 72870.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-exclusivo-eau-de-parfum-femenino-100ml/NATARG-93618?position=60&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-80059",
-      "precio_lista_web": 41900.0,
-      "precio_promo_web": 20950.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/protector-aclarador-fps-50-claromedio-chronos-derma-50ml/NATARG-80059?position=61&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3416,92 +3416,92 @@
     },
     {
       "codigo": "NATARG-135039",
-      "precio_lista_web": 65700.0,
-      "precio_promo_web": 65700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-antisenales-fortalecimiento-y-nutricion-80-noche-chronos-derma-40g/NATARG-135039?position=575&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-102418",
-      "precio_lista_web": 7100.0,
-      "precio_promo_web": 7100.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-jabon-liquido-nature-250-ml/NATARG-102418?position=576&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174187",
-      "precio_lista_web": 11000.0,
-      "precio_promo_web": 11000.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-acondicionador-antisenales-regenerador-capilar-lumina-300-ml/NATARG-174187?position=577&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-164820",
-      "precio_lista_web": 27800.0,
-      "precio_promo_web": 27800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/gloss-labial-hidratacion-activa-rojo-una-5-ml/NATARG-164820?position=578&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-168744",
-      "precio_lista_web": 30900.0,
-      "precio_promo_web": 30900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/limpieza-purificante-antioleosidad-130-g/NATARG-168744?position=579&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-67661",
-      "precio_lista_web": 8300.0,
-      "precio_promo_web": 8300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/mini-lapiz-negro/NATARG-67661?position=580&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110199",
-      "precio_lista_web": 57800.0,
-      "precio_promo_web": 57800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110199?position=581&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-194522",
-      "precio_lista_web": 8700.0,
-      "precio_promo_web": 8700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-manos-ekos-pitanga-40-g/NATARG-194522?position=582&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-107129",
-      "precio_lista_web": 34400.0,
-      "precio_promo_web": 25800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-cushion-nude-me/NATARG-107129?position=583&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-135036",
-      "precio_lista_web": 65700.0,
-      "precio_promo_web": 65700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-antisenales-relleno-y-revitalizacion-60-noche-chronos-derma-40g/NATARG-135036?position=584&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148411",
-      "precio_lista_web": 12700.0,
-      "precio_promo_web": 12700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-hidratante-cabellos-rizados-300ml/NATARG-148411?position=585&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-116690",
-      "precio_lista_web": 16200.0,
-      "precio_promo_web": 16200.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-check-mate-10-g/NATARG-116690?position=586&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148449",
-      "precio_lista_web": 19900.0,
-      "precio_promo_web": 15920.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/spray-antidecoloracion-y-brillo-cabellos-opacos-o-con-coloracion-lumina-150ml/NATARG-148449?position=587&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-107360",
-      "precio_lista_web": 16800.0,
-      "precio_promo_web": 11424.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/labial-color-hidra-fps-8/NATARG-107360?position=588&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174206",
-      "precio_lista_web": 15100.0,
-      "precio_promo_web": 15100.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-de-tratamiento-antisenales-regenerador-capilar-lumina-300-ml/NATARG-174206?position=589&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3530,80 +3530,80 @@
     },
     {
       "codigo": "NATARG-255517",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 43400.0,
+      "precio_promo_web": 43400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-shampoo-acondicionador-mascara-y-crema-para-peinar-reparador-natura-tododia-flor-de-cereza-y-palta/NATARG-255517?position=595&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-105714",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 25500.0,
+      "precio_promo_web": 25500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/pincel-corrector/NATARG-105714?position=596&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174212",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15100.0,
+      "precio_promo_web": 15100.0,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-antisenales-regenerador-capilar-lumina-300-ml/NATARG-174212?position=597&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-127775",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 54000.0,
+      "precio_promo_web": 54000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-powder-multifuncional-20-g/NATARG-127775?position=598&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-122112",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 26500.0,
+      "precio_promo_web": 26500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-cobertura-extrema-8-ml/NATARG-122112?position=599&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-178162",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 9600.0,
+      "precio_promo_web": 6432.0,
       "url": "https://www.naturacosmeticos.com.ar/p/esmalte-faces-6-ml/NATARG-178162?position=600&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-26441",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 16800.0,
+      "precio_promo_web": 16800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/jabon-cremoso-para-manos/NATARG-26441?position=601&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-00078",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 11500.0,
+      "precio_promo_web": 11500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-studio-palette-dorado-sparkling-2-g/NATARG-00078?position=602&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-15826",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15900.0,
+      "precio_promo_web": 15900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/top-coat-3d-gel/NATARG-15826?position=603&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-127761",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 54000.0,
+      "precio_promo_web": 54000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-powder-multifuncional-20-g/NATARG-127761?position=604&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-179454",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 46400.0,
+      "precio_promo_web": 46400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/super-serum-reductor-de-arrugas-chronos-derma-10-ml/NATARG-179454?position=605&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-246010",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 46400.0,
+      "precio_promo_web": 46400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kit-tododia-piel-uniforme/NATARG-246010?position=606&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-174918",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12300.0,
+      "precio_promo_web": 12300.0,
       "url": "https://www.naturacosmeticos.com.ar/p/balsamo-labial-tododia-color-ciruela-27-g/NATARG-174918?position=607&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6367,6 +6367,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/mini-chubby-matte-faces-12g/NATARG-151702?position=1068&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-18T05:15:58.965784-03:00",
+  "fecha_generado": "2026-08-18T08:08:11.572779-03:00",
   "total": 1061
 }
