@@ -308,44 +308,44 @@
     },
     {
       "codigo": "NATARG-179068",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 107800.0,
+      "precio_promo_web": 64680.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-sentir-eau-de-parfum-femenino-100-ml/NATARG-179068?position=52&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-205935",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 21600.0,
+      "precio_promo_web": 12960.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-desodorante-nutritiva-para-el-cuerpo-tododia-fresa-y-vainilla-dorada-400-ml/NATARG-205935?position=53&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-122945",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 9300.0,
+      "precio_promo_web": 5580.0,
       "url": "https://www.naturacosmeticos.com.ar/p/pulpa-de-manos-pitanga-preta-40g/NATARG-122945?position=54&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-76383",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 33100.0,
+      "precio_promo_web": 19860.0,
       "url": "https://www.naturacosmeticos.com.ar/p/body-splash-frambuesa-y-pimienta-rosa/NATARG-76383?position=55&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-20834",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 63600.0,
+      "precio_promo_web": 63600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/humor-liberta/NATARG-20834?position=56&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-56768",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12300.0,
+      "precio_promo_web": 8610.0,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-spray-corporal-perfumado-femenino-humor-propio/NATARG-56768?position=57&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-93618",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 107800.0,
+      "precio_promo_web": 75460.0,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-exclusivo-eau-de-parfum-femenino-100ml/NATARG-93618?position=58&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3452,8 +3452,8 @@
     },
     {
       "codigo": "NATARG-135043",
-      "precio_lista_web": 52200.0,
-      "precio_promo_web": 52200.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/esencia-de-tratamiento-revitalizacion-y-luminosidad-chronos-derma-100ml/NATARG-135043?position=581&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3554,14 +3554,14 @@
     },
     {
       "codigo": "NATARG-195750",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 54000.0,
+      "precio_promo_web": 54000.0,
       "url": "https://www.naturacosmeticos.com.ar/p/matera-creer-para-ver-1-unidad/NATARG-195750?position=598&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-116690",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 17100.0,
+      "precio_promo_web": 17100.0,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-check-mate-10-g/NATARG-116690?position=599&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6163,6 +6163,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/labial-extremo-confort-una-38-g/NATARG-168346?position=1034&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-23T05:09:58.262083-03:00",
+  "fecha_generado": "2026-08-23T08:01:52.427500-03:00",
   "total": 1027
 }
