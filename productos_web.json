@@ -98,8 +98,8 @@
     },
     {
       "codigo": "NATARG-156165",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 66200.0,
+      "precio_promo_web": 66200.0,
       "url": "https://www.naturacosmeticos.com.ar/p/kaiak-femenino-eau-de-toilette-miniatura-25-ml/NATARG-156165?position=17&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -338,20 +338,20 @@
     },
     {
       "codigo": "NATARG-122945",
-      "precio_lista_web": 9300.0,
-      "precio_promo_web": 5580.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/pulpa-de-manos-pitanga-preta-40g/NATARG-122945?position=57&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-44171",
-      "precio_lista_web": 81900.0,
-      "precio_promo_web": 49140.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/ilia-clasico-edp-femenino-50-ml/NATARG-44171?position=58&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-119001",
-      "precio_lista_web": 38400.0,
-      "precio_promo_web": 23040.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/frescor-pitanga-preta-eau-de-toilette-150-ml/NATARG-119001?position=59&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3446,32 +3446,32 @@
     },
     {
       "codigo": "NATARG-111325",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 27800.0,
+      "precio_promo_web": 27800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/aceite-bifasico-corporal-tododia-ciruela-y-flor-de-vainilla-120-ml/NATARG-111325?position=580&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-114984",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 12500.0,
+      "precio_promo_web": 12500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/labial-multimix-cremoso-faces-35-g/NATARG-114984?position=581&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-164821",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 28800.0,
+      "precio_promo_web": 28800.0,
       "url": "https://www.naturacosmeticos.com.ar/p/gloss-labial-hidratacion-activa-rosa-una-5-ml/NATARG-164821?position=582&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-116690",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 17100.0,
+      "precio_promo_web": 17100.0,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-check-mate-10-g/NATARG-116690?position=583&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-132560",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 21600.0,
+      "precio_promo_web": 21600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-tododia-nuez-pecan-y-cacao-400-ml/NATARG-132560?position=584&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3560,20 +3560,20 @@
     },
     {
       "codigo": "NATARG-191639",
-      "precio_lista_web": 50000.0,
-      "precio_promo_web": 50000.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191639?position=599&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-00087",
-      "precio_lista_web": 40000.0,
-      "precio_promo_web": 40000.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/blush-liquido-cushion-una-10-g/NATARG-00087?position=600&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-137961",
-      "precio_lista_web": 40000.0,
-      "precio_promo_web": 40000.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/rubor-liquido-cushion-una-10-g/NATARG-137961?position=601&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6163,6 +6163,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/labial-extremo-confort-una-38-g/NATARG-168346?position=1034&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-08-26T08:14:09.382002-03:00",
+  "fecha_generado": "2026-08-26T11:20:34.077206-03:00",
   "total": 1027
 }
