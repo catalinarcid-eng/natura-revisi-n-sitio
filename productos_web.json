@@ -536,38 +536,38 @@
     },
     {
       "codigo": "NATARG-00016",
-      "precio_lista_web": 11200.0,
-      "precio_promo_web": 6720.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/gloss-labial-faces-natura/NATARG-00016?position=90&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-93615",
-      "precio_lista_web": 107800.0,
-      "precio_promo_web": 53900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-clasico-edp-masculino-100ml/NATARG-93615?position=91&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-72981",
-      "precio_lista_web": 34600.0,
-      "precio_promo_web": 17300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/ekos-manteca-hidratante-reparadora-corporal-y-areas-resecas/NATARG-72981?position=92&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-19915",
-      "precio_lista_web": 28900.0,
-      "precio_promo_web": 14450.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/pulpa-hidratante-corporal-tukuma/NATARG-19915?position=93&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-176913",
-      "precio_lista_web": 28600.0,
-      "precio_promo_web": 28600.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/protector-solar-facial-piel-normal-a-seca-fps-50-natura-solar-50-ml/NATARG-176913?position=94&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-167236",
-      "precio_lista_web": 17200.0,
-      "precio_promo_web": 12040.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/balsamo-labial-reparador-hidratante-chronos-derma-15-ml/NATARG-167236?position=95&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6655,6 +6655,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/labial-extremo-confort-una-38-g/NATARG-168346?position=1116&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-09-25T09:43:00.209152-03:00",
+  "fecha_generado": "2026-09-25T15:05:49.238493-03:00",
   "total": 1109
 }
