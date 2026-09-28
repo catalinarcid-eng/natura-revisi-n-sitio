@@ -500,38 +500,38 @@
     },
     {
       "codigo": "NATARG-134189",
-      "precio_lista_web": 44400.0,
-      "precio_promo_web": 26640.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/multiprotector-antisenales-fps-50-chronos-derma-50ml/NATARG-134189?position=84&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-147410",
-      "precio_lista_web": 9800.0,
-      "precio_promo_web": 6370.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto--acondicionador-polinutricion-cabellos-secos-o-resecos-300ml/NATARG-147410?position=85&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-178907",
-      "precio_lista_web": 129400.0,
-      "precio_promo_web": 129400.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/perfume-natura-aura-alba-75-ml/NATARG-178907?position=86&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-176905",
-      "precio_lista_web": 32900.0,
-      "precio_promo_web": 19740.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/protector-solar-facial-piel-normal-a-seca-fps-70-natura-solar-50-ml/NATARG-176905?position=87&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-193486",
-      "precio_lista_web": 31300.0,
-      "precio_promo_web": 20345.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/luna-girl-eau-de-toilette-femenino-miniatura-25-ml/NATARG-193486?position=88&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-00075",
-      "precio_lista_web": 17100.0,
-      "precio_promo_web": 11970.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/corrector-check-mate-10-g/NATARG-00075?position=89&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3368,20 +3368,20 @@
     },
     {
       "codigo": "NATARG-110192",
-      "precio_lista_web": 59900.0,
-      "precio_promo_web": 59900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110192?position=568&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110191",
-      "precio_lista_web": 59900.0,
-      "precio_promo_web": 59900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110191?position=569&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148016",
-      "precio_lista_web": 10600.0,
-      "precio_promo_web": 10600.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-nutritiva-para-manos-ciruela-y-flor-de-vainilla-tododia-50-g/NATARG-148016?position=570&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6643,6 +6643,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/labial-extremo-confort-una-38-g/NATARG-168346?position=1114&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-09-27T19:30:04.145031-03:00",
+  "fecha_generado": "2026-09-27T22:19:58.660403-03:00",
   "total": 1107
 }
