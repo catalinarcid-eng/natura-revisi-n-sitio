@@ -506,14 +506,14 @@
     },
     {
       "codigo": "NATARG-168818",
-      "precio_lista_web": 58000.0,
-      "precio_promo_web": 37700.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-serum-intensivo-rellenador-hidratante-chronos-derma-30-ml/NATARG-168818?position=85&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-69817",
-      "precio_lista_web": 15900.0,
-      "precio_promo_web": 10335.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/crema-hidratante-para-los-pies-ekos-castana-75-g/NATARG-69817?position=86&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3404,20 +3404,20 @@
     },
     {
       "codigo": "NATARG-70405",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 17600.0,
+      "precio_promo_web": 17600.0,
       "url": "https://www.naturacosmeticos.com.ar/p/jabon-liquido-exfoliante-para-el-cuerpo-ekos-maracuya-185-ml/NATARG-70405?position=573&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-154869",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 10500.0,
+      "precio_promo_web": 10500.0,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-nutritivo-durazno-y-almendras-tododia-300-ml/NATARG-154869?position=574&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-147401",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 15900.0,
+      "precio_promo_web": 15900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/acondicionador-leve-antioleosidad-lumina-300ml/NATARG-147401?position=575&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3536,26 +3536,26 @@
     },
     {
       "codigo": "NATARG-135024",
-      "precio_lista_web": 35000.0,
-      "precio_promo_web": 24500.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-12f-30-ml/NATARG-135024?position=595&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-164506",
-      "precio_lista_web": 13800.0,
-      "precio_promo_web": 13800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-mascara-lumina-fuerza-y-reparacion-molecular-250-ml/NATARG-164506?position=596&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-148405",
-      "precio_lista_web": 9800.0,
-      "precio_promo_web": 9800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-acondicionador-protector-cabellos-opacos-o-con-coloracion-300ml/NATARG-148405?position=597&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-127760",
-      "precio_lista_web": 55900.0,
-      "precio_promo_web": 55900.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-powder-multifuncional-20-g/NATARG-127760?position=598&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -6889,6 +6889,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/labial-liquido-mate-larga-duracion-faces-55-ml/NATARG-111397?position=1155&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-10-04T22:36:09.419606-03:00",
+  "fecha_generado": "2026-10-05T02:25:26.938980-03:00",
   "total": 1148
 }
