@@ -494,32 +494,32 @@
     },
     {
       "codigo": "NATARG-206",
-      "precio_lista_web": 25500.0,
-      "precio_promo_web": 17850.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/humor-paz-e-humor-masculino-edt-25-ml/NATARG-206?position=83&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-120282",
-      "precio_lista_web": 37300.0,
-      "precio_promo_web": 18650.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/aguas-de-natura-flor-de-laranjeira-fragancia-femenina-150ml/NATARG-120282?position=84&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-59848",
-      "precio_lista_web": 84200.0,
-      "precio_promo_web": 58940.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/homem-essence-edp-100-ml/NATARG-59848?position=85&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-170971",
-      "precio_lista_web": 30000.0,
-      "precio_promo_web": 18000.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/homem-meninos-edt-25ml/NATARG-170971?position=86&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-93618",
-      "precio_lista_web": 107800.0,
-      "precio_promo_web": 107800.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/essencial-exclusivo-eau-de-parfum-femenino-100ml/NATARG-93618?position=87&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3374,20 +3374,20 @@
     },
     {
       "codigo": "NATARG-110184",
-      "precio_lista_web": 62300.0,
-      "precio_promo_web": 62300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110184?position=567&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110191",
-      "precio_lista_web": 62300.0,
-      "precio_promo_web": 62300.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-serum-nude-me-30ml/NATARG-110191?position=568&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-127761",
-      "precio_lista_web": 58100.0,
-      "precio_promo_web": 58100.0,
+      "precio_lista_web": null,
+      "precio_promo_web": null,
       "url": "https://www.naturacosmeticos.com.ar/p/base-matte-powder-multifuncional-20-g/NATARG-127761?position=569&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -3512,20 +3512,20 @@
     },
     {
       "codigo": "NATARG-102400",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 8900.0,
+      "precio_promo_web": 8900.0,
       "url": "https://www.naturacosmeticos.com.ar/p/shampoo-cabellos-rizados-nature-250-ml/NATARG-102400?position=591&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-15826",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 17400.0,
+      "precio_promo_web": 17400.0,
       "url": "https://www.naturacosmeticos.com.ar/p/top-coat-3d-gel/NATARG-15826?position=592&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-171357",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
+      "precio_lista_web": 16200.0,
+      "precio_promo_web": 12960.0,
       "url": "https://www.naturacosmeticos.com.ar/p/pomada-modeladora-homem-100-g/NATARG-171357?position=593&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
@@ -5041,16 +5041,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/repuesto-mascarilla-antiedad-regeneradora-capilar-lumina-250-ml/NATARG-174193?position=847&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-140032",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/labial-liquido-matte-intransferible-7-ml/NATARG-140032?position=848&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-195752",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/lona-creer-para-ver/NATARG-195752?position=849&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/lona-creer-para-ver/NATARG-195752?position=848&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-140032",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/labial-liquido-matte-intransferible-7-ml/NATARG-140032?position=849&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-162090",
@@ -5443,16 +5443,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-12f-30-ml/NATARG-135024?position=914&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-260841",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/tododia-kit-rizos-entrada/NATARG-260841?position=915&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-116401",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/polvo-compacto-nude-me/NATARG-116401?position=916&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/polvo-compacto-nude-me/NATARG-116401?position=915&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-260841",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/tododia-kit-rizos-entrada/NATARG-260841?position=916&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-89501",
@@ -5653,16 +5653,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/eau-de-parfum-ekos-raiz-50-ml/NATARG-148478?position=949&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-148476",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/labial-ultra-care-24-horas-una-7ml/NATARG-148476?position=950&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-181516",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/base-stick-fps-50-una-12-g/NATARG-181516?position=951&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/base-stick-fps-50-una-12-g/NATARG-181516?position=950&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-148476",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/labial-ultra-care-24-horas-una-7ml/NATARG-148476?position=951&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-184265",
@@ -5677,16 +5677,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/crema-antisenales-restauracion-y-cuidado-70-noche-chronos-40g/NATARG-135027?position=953&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-148479",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/eau-de-parfum-ekos-alma-50-ml/NATARG-148479?position=954&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-205337",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/gloss-labial-hidratacion-activa-una-5-ml/NATARG-205337?position=955&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/gloss-labial-hidratacion-activa-una-5-ml/NATARG-205337?position=954&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-148479",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/eau-de-parfum-ekos-alma-50-ml/NATARG-148479?position=955&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-221273",
@@ -5857,16 +5857,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/mascara-fuerza-y-reparacion-molecular-lumina-cabellos-fragiles-y-quebradizos-250-ml/NATARG-164505?position=983&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-199864",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/set-de-regalo-natura-chronos-treatment-power-3-productos/NATARG-199864?position=984&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-191619",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191619?position=985&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-hd-una-30-ml/NATARG-191619?position=984&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-199864",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/set-de-regalo-natura-chronos-treatment-power-3-productos/NATARG-199864?position=985&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-110195",
@@ -6709,16 +6709,16 @@
       "url": "https://www.naturacosmeticos.com.ar/p/pulseras-de-la-amistad-creer-para-ver/NATARG-150087?position=1126&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
-      "codigo": "NATARG-166345",
-      "precio_lista_web": null,
-      "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-faces-checkmatte-25-ml/NATARG-166345?position=1127&listTitle=category+page+list+showcase+-+todos+productos"
-    },
-    {
       "codigo": "NATARG-135047",
       "precio_lista_web": null,
       "precio_promo_web": null,
-      "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-23f-30-ml/NATARG-135047?position=1128&listTitle=category+page+list+showcase+-+todos+productos"
+      "url": "https://www.naturacosmeticos.com.ar/p/base-tint-extremo-confort-fps-40-23f-30-ml/NATARG-135047?position=1127&listTitle=category+page+list+showcase+-+todos+productos"
+    },
+    {
+      "codigo": "NATARG-166345",
+      "precio_lista_web": null,
+      "precio_promo_web": null,
+      "url": "https://www.naturacosmeticos.com.ar/p/base-liquida-faces-checkmatte-25-ml/NATARG-166345?position=1128&listTitle=category+page+list+showcase+-+todos+productos"
     },
     {
       "codigo": "NATARG-106139",
@@ -7135,6 +7135,6 @@
       "url": "https://www.naturacosmeticos.com.ar/p/polvo-compacto-mate-faces/NATARG-8885?position=1197&listTitle=category+page+list+showcase+-+todos+productos"
     }
   ],
-  "fecha_generado": "2026-10-25T16:55:47.199007-03:00",
+  "fecha_generado": "2026-10-25T21:53:06.650341-03:00",
   "total": 1189
 }
